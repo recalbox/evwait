@@ -1,0 +1,12 @@
+Manual compilation (if autotools are not available):
+$> gcc -o evwait evwait.c
+
+Otherwise, run the following commands.
+
+$> autoreconf -iv
+$> configure --prefix=/usr 
+$> make 
+$> make install
+
+Adjust the prefix as necessary, on most distributions /usr is fine.
+evwait itself has no requirements other than the C compiler.

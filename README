@@ -1,0 +1,8 @@
+Summary
+=======
+evwait is a tool to wait for an evdev kernel event. It reads directly from the kernel device.
+
+Usage:
+   evwait "AT Translated Set 2 keyboard" KEY_A 1 && echo "Key A pressed"
+
+Note: in most cases evwait needs to run as root to be able to read the devices.
